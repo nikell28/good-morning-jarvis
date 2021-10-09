@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "gmj"
+version = "0.1.0"
+description = "A skill for Alice who wishes you a \"good morning\" in a new way"
+authors = ["Nikell Viktor <v.nikell.28@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.70.0"
+uvicorn = "^0.15.0"
+pydantic = "^1.8.2"
+aiologger = "^0.6.1"
+python-dotenv = "^0.19.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+pytest = "^6.2.5"
+mypy = "^0.910"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
